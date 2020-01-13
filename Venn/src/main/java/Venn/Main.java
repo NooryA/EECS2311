@@ -10,6 +10,7 @@ public class Main {
 		System.out.println("Hey");
 		System.out.println("pull...");
 		System.out.println("push... ");
+		System.out.println("push #2... ");
 	}
 
 }
