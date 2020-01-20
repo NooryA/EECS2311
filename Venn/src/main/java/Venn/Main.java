@@ -13,7 +13,7 @@ public class Main {
 		System.out.println("push #2... ");
 		System.out.println("push #3");
 		
-		
+
 	}
 
 }
