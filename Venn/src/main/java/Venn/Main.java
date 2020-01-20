@@ -12,6 +12,7 @@ public class Main {
 		System.out.println("push... ");
 		System.out.println("push #2... ");
 		System.out.println("pushhhhhhhhh...");
+		System.out.println("this is the pull");
 	}
 
 }
