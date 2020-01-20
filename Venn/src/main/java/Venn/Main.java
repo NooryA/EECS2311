@@ -15,7 +15,7 @@ public class Main {
 
 		System.out.println("Venn Diagram Editor: ");
 		System.out.println("Attempt #2: ");
-		
+		System.out.println("Change: ");
 	}
 
 }
