@@ -13,6 +13,7 @@ public class Main {
 		System.out.println("push #2... ");
 		System.out.println("pushhhhhhhhh...");
 		System.out.println("this is the pull");
+		System.out.println("junior");
 	}
 
 }
