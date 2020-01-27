@@ -17,6 +17,7 @@ public class Main {
 		System.out.println("merge attempt");
 		System.out.println("Feature Sana 2");
 		System.out.println("myfeature");
+		System.out.println("feature new branch");
 	}
 
 }
