@@ -1,4 +1,4 @@
-package venn.model;
+package venn.app;
 
 
 import java.io.IOException;
