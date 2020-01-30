@@ -1,7 +1,7 @@
 # Gradle
 # ------
-.gradle
-/build
+/.gradle
+build
 /buildSrc/build
 /buildSrc/subprojects/*/build
 /subprojects/*/build
