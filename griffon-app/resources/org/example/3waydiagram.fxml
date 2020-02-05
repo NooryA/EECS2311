@@ -1,64 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import javafx.scene.*?>
-<?import javafx.scene.shape.*?>
-<?import javafx.scene.paint.*?>
-<?import javafx.scene.image.*?>
-<?import javafx.scene.transform.*?>
-<?import javafx.scene.effect.*?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.transform.Affine?>
+<?import javafx.scene.transform.Translate?>
 
-<Group id='_root' xmlns:fx="http://javafx.com/fxml" xmlns:fxsvg="http://efxclipse.org/fxml-svg">
+<Group id="_root" xmlns:fxsvg="http://efxclipse.org/fxml-svg" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
 	<children>
 		<fx:define>
 		</fx:define>
 		<!-- Unhandled type 'SvgMetadataElement' -->
-		<Group
-			opacity="1.0"
-			id="layer1"
-			>
+		<Group id="layer1" opacity="1.0">
 			<children>
-				<Rectangle
-					x="266.93695"
-					y="366.92096"
-					width="547.30255"
-					height="367.40216"
-					opacity="1"
-					id="rect4170"
-					strokeWidth="1.97504687"
-					>
+				<Rectangle id="rect4170" height="370.0" opacity="1" strokeWidth="1.97504687" width="551.0" x="266.93695" y="366.92096">
 					<fill>
 						WHITE
 					</fill>
 				
 				</Rectangle>
-				<SVGPath
-					content="M 144.95689 70.753784 A 36.870567 41.921329 0 1 1  71.215752,70.753784 A 36.870567 41.921329 0 1 1  144.95689 70.753784 z"
-					opacity="1"
-					strokeWidth="1.0"
-					id="path2378"
-					>
+				<SVGPath id="path2378" content="M 144.95689 70.753784 A 36.870567 41.921329 0 1 1  71.215752,70.753784 A 36.870567 41.921329 0 1 1  144.95689 70.753784 z" opacity="1" strokeWidth="1.0">
 					<fill>
 						TRANSPARENT
 					</fill>
 					<transforms>
-						<Affine
-							mxx="2.533807"
-							myx="0"
-							mxy="0"
-							myy="2.533807"
-							tx="266.937"
-							ty="366.921"
-							>
+						<Affine mxx="2.533807" mxy="0" myx="0" myy="2.533807" tx="266.937" ty="366.921">
 						</Affine>
 					</transforms>
 				</SVGPath>
-				<SVGPath
-					content="M 147.22974 71.574539 A 41.353119 41.353119 0 1 1  64.523499,71.574539 A 41.353119 41.353119 0 1 1  147.22974 71.574539 z"
-					opacity="1"
-					strokeWidth="1.0173503"
-					id="path3265"
-					>
+				<SVGPath id="path3265" content="M 147.22974 71.574539 A 41.353119 41.353119 0 1 1  64.523499,71.574539 A 41.353119 41.353119 0 1 1  147.22974 71.574539 z" opacity="1" strokeWidth="1.0173503">
 					<fill>
 						TRANSPARENT
 					</fill>
@@ -66,23 +37,11 @@
 						BLACK
 					</stroke>
 					<transforms>
-						<Affine
-							mxx="2.457364"
-							myx="0"
-							mxy="0"
-							myy="2.457364"
-							tx="282.0717"
-							ty="372.0733"
-							>
+						<Affine mxx="2.457364" mxy="0" myx="0" myy="2.457364" tx="282.0717" ty="372.0733">
 						</Affine>
 					</transforms>
 				</SVGPath>
-				<SVGPath
-					content="M 372.46875,365.6875 C 368.43287,365.69402 365.16277,368.96412 365.15625,373 L 365.15625,503.375 C 365.16277,507.41088 368.43287,510.68098 372.46875,510.6875 L 473.53125,510.6875 C 477.56713,510.68098 480.83723,507.41088 480.84375,503.375 L 480.84375,373 C 480.83723,368.96412 477.56713,365.69402 473.53125,365.6875 L 372.46875,365.6875 z "
-					opacity="1"
-					strokeWidth="0.94117677"
-					id="path6829"
-					>
+				<SVGPath id="path6829" content="M 372.46875,365.6875 C 368.43287,365.69402 365.16277,368.96412 365.15625,373 L 365.15625,503.375 C 365.16277,507.41088 368.43287,510.68098 372.46875,510.6875 L 473.53125,510.6875 C 477.56713,510.68098 480.83723,507.41088 480.84375,503.375 L 480.84375,373 C 480.83723,368.96412 477.56713,365.69402 473.53125,365.6875 L 372.46875,365.6875 z " opacity="1" strokeWidth="0.94117677">
 					<fill>
 						TRANSPARENT
 					</fill>
@@ -90,23 +49,11 @@
 						BLACK
 					</stroke>
 					<transforms>
-						<Affine
-							mxx="2.379572"
-							myx="0"
-							mxy="0"
-							myy="2.534314"
-							tx="-330.7504"
-							ty="-558.5293"
-							>
+						<Affine mxx="2.379572" mxy="0" myx="0" myy="2.534314" tx="-330.7504" ty="-558.5293">
 						</Affine>
 					</transforms>
 				</SVGPath>
-				<SVGPath
-					content="M 277.4375,431.6875 C 273.29554,431.68791 269.93791,435.04554 269.9375,439.1875 L 269.9375,500.3125 C 269.93791,504.45446 273.29554,507.81209 277.4375,507.8125 L 476.4375,507.8125 C 480.57946,507.81209 483.93709,504.45446 483.9375,500.3125 L 483.9375,439.1875 C 483.93709,435.04554 480.57946,431.68791 476.4375,431.6875 L 277.4375,431.6875 z "
-					opacity="1"
-					strokeWidth="1.0"
-					id="path6835"
-					>
+				<SVGPath id="path6835" content="M 277.4375,431.6875 C 273.29554,431.68791 269.93791,435.04554 269.9375,439.1875 L 269.9375,500.3125 C 269.93791,504.45446 273.29554,507.81209 277.4375,507.8125 L 476.4375,507.8125 C 480.57946,507.81209 483.93709,504.45446 483.9375,500.3125 L 483.9375,439.1875 C 483.93709,435.04554 480.57946,431.68791 476.4375,431.6875 L 277.4375,431.6875 z " opacity="1" strokeWidth="1.0">
 					<fill>
 						TRANSPARENT
 					</fill>
@@ -114,23 +61,16 @@
 						RED
 					</stroke>
 					<transforms>
-						<Affine
-							mxx="2.534104"
-							myx="0"
-							mxy="0"
-							myy="2.408554"
-							tx="-412.8156"
-							ty="-487.2993"
-							>
+						<Affine mxx="2.534104" mxy="0" myx="0" myy="2.408554" tx="-412.8156" ty="-487.2993">
 						</Affine>
 					</transforms>
 				</SVGPath>
+            <Label layoutX="281.0" layoutY="531.0" text="Set A" />
+            <Label layoutX="502.0" layoutY="381.0" text="Set C" />
+            <Label layoutX="421.0" layoutY="467.0" text="Set B" />
 			</children>
 			<transforms>
-				<Translate
-					x="-266.937"
-					y="-366.921"
-					>
+				<Translate x="-266.937" y="-366.921">
 				</Translate>
 			</transforms>
 		</Group>

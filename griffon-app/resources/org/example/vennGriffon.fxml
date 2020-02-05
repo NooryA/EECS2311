@@ -9,21 +9,13 @@
 <?import javafx.scene.effect.Blend?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.BorderPane?>
-<?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="476.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane prefHeight="522.0" prefWidth="763.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <BorderPane />
       <VBox />
-      <StackPane layoutX="208.0" layoutY="160.0" prefHeight="310.0" prefWidth="438.0">
-         <children>
-            <Circle fill="#0059e375" layoutX="260.0" layoutY="182.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_RIGHT" />
-            <Circle fill="#e5f72074" layoutX="376.0" layoutY="143.0" radius="127.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_LEFT" />
-         </children>
-      </StackPane>
       <DropdownButton layoutX="530.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT">
          <items>
             <MenuItem text="2" />
@@ -56,5 +48,6 @@
             <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="247.0" prefWidth="153.0" />
          </items>
       </SplitPane>
+      <AnchorPane layoutX="186.0" layoutY="152.0" prefHeight="369.0" prefWidth="576.0" />
    </children>
 </AnchorPane>

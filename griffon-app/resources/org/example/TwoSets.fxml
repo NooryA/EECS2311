@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 
-<StackPane prefHeight="310.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="335.0" prefWidth="530.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <Circle fill="#0059e375" layoutX="260.0" layoutY="182.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_RIGHT" />
-      <Circle fill="#e5f72074" layoutX="376.0" layoutY="143.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_LEFT" />
+      <Circle fill="#ffffff00" layoutX="134.0" layoutY="184.0" radius="115.0" stroke="RED" strokeWidth="5.0" />
+      <Circle fill="#ffffff00" layoutX="310.0" layoutY="184.0" radius="115.0" stroke="BLACK" strokeType="INSIDE" strokeWidth="5.0" />
+      <Label layoutX="29.0" layoutY="69.0" text="Set A" />
+      <Label layoutX="367.0" layoutY="61.0" text="Set B" />
    </children>
-</StackPane>
+</AnchorPane>
