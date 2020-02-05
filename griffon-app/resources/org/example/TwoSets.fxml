@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.shape.Circle?>
+
+<StackPane prefHeight="310.0" prefWidth="438.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Circle fill="#0059e375" layoutX="260.0" layoutY="182.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_RIGHT" />
+      <Circle fill="#e5f72074" layoutX="376.0" layoutY="143.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_LEFT" />
+   </children>
+</StackPane>
