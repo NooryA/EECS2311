@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Group?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.transform.Affine?>
+<?import javafx.scene.transform.Translate?>
+
+<AnchorPane fx:id="rootpane" prefHeight="534.0" prefWidth="891.0" style="-fx-background-color: FFFAF0FFFAF0;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myVenn.Venn5Controller">
+   <children>
+      <VBox layoutX="760.0" layoutY="-5.0" prefHeight="600.0" prefWidth="131.0" style="-fx-background-color: #000000#000000;">
+         <children>
+            <Button mnemonicParsing="false" onMouseClicked="#Two" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #A9A9A9#A9A9A9;" text="Two sets">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Three" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #A9A9A9#A9A9A9;" text="Three sets">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Four" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #A9A9A9#A9A9A9;" text="Four sets">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Five" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #A9A9A9#A9A9A9;" text="Five sets">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Six" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #A9A9A9#A9A9A9;" text="Six sets">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" onMouseClicked="#Clear" prefHeight="55.0" prefWidth="131.0" style="-fx-background-color: #B22222#B22222;" text="Clear" textFill="#fffefe">
+               <VBox.margin>
+                  <Insets bottom="15.0" top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane layoutX="-1.0" prefHeight="592.0" prefWidth="550.0" />
+      <TextField layoutX="579.0" layoutY="5.0" />
+      <TextField layoutX="579.0" layoutY="45.0" />
+      <TextField layoutX="579.0" layoutY="86.0" />
+      <TextField layoutX="579.0" layoutY="180.0" />
+      <TextField layoutX="579.0" layoutY="135.0" />
+      <Label layoutX="540.0" layoutY="226.0" text="F:" visible="false">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <TextField layoutX="579.0" layoutY="224.0" visible="false" />
+      <Label layoutX="557.0" layoutY="7.0" text="A:">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <Label layoutX="557.0" layoutY="182.0" text="E:">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <Label layoutX="557.0" layoutY="137.0" text="D:">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <Label layoutX="557.0" layoutY="88.0" text="C:">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <Label layoutX="557.0" layoutY="47.0" text="B:">
+         <padding>
+            <Insets bottom="5.0" right="5.0" top="1.0" />
+         </padding>
+      </Label>
+      <AnchorPane layoutX="496.0" layoutY="266.0" prefHeight="328.0" prefWidth="260.0" />
+      <Group id="_root" xmlns:fxsvg="http://efxclipse.org/fxml-svg" />
+      <Group id="_root" xmlns:fxsvg="http://efxclipse.org/fxml-svg" />
+      <Group id="_root" xmlns:fxsvg="http://efxclipse.org/fxml-svg">
+      	<children>
+      		<fx:define>
+		</fx:define>
+      		<!-- Unhandled type 'SvgMetadataElement' -->
+      		<Group id="layer1" opacity="1.0">
+      			<children>
+      				<Rectangle id="rect4170" height="367.40216" opacity="1" strokeWidth="1.97504687" width="547.30255" x="266.93695" y="366.92096">
+      					<fill>
+						WHITE
+					</fill>
+      				
+            				</Rectangle>
+      				<SVGPath id="path9498" content="M 521.459,700.4926 C 501.29711,691.81615 494.09873,667.22496 499.55324,647.24574 C 502.49625,631.99338 503.95289,613.92303 493.81599,601.2546 C 481.56004,588.32521 465.13267,583.32323 449.5408,591.44718 C 429.17893,597.56662 403.23036,592.20027 393.22607,571.70917 C 381.64717,549.30452 391.50612,516.22353 417.3375,509.37858 C 433.75902,504.23007 450.35065,511.38067 466.50354,513.33655 C 481.50192,508.86242 500.09811,499.61224 500.45865,481.54913 C 501.62621,461.79894 497.00833,441.71595 500.7923,422.18113 C 509.12568,403.80919 530.52498,394.01414 550.03333,398.52733 C 568.40603,401.08181 584.64027,418.40012 582.25903,437.54939 C 583.20825,451.77216 578.62625,465.70864 579.54581,479.81063 C 583.13171,503.71431 612.12852,520.45295 634.28069,509.27551 C 658.24912,499.83152 691.04006,516.49308 692.29935,543.54328 C 695.63859,564.87986 683.41822,589.55795 660.75135,593.36997 C 640.656,598.49009 618.64886,583.67453 598.34639,592.2566 C 583.65812,598.46552 580.46084,612.14925 579.22412,626.31215 C 580.07404,644.52209 587.6567,664.3202 579.26022,681.724 C 571.31249,697.07327 554.12834,704.95504 537.25098,703.2517 C 531.92044,703.0204 526.43415,702.57211 521.459,700.4926 z " opacity="1" strokeWidth="2.53380799">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<stroke>
+						BLUE
+					</stroke>
+      				</SVGPath>
+      				<SVGPath id="path8609" content="M 376.00544,653.16007 C 337.74292,644.89206 305.85982,612.63862 296.91895,574.75877 C 296.30661,551.17087 292.28292,525.35864 305.04608,504.03414 C 327.36055,457.51153 386.84972,433.57465 434.90898,452.99927 C 464.59258,464.36209 483.11749,494.44544 515.05334,501.41708 C 551.21349,512.97246 590.72301,497.23128 616.45428,471.13174 C 653.65484,438.20028 714.45543,438.30159 751.30606,471.72262 C 770.8069,489.54551 787.7672,514.52846 785.0813,542.16378 C 785.91267,565.94407 784.61503,591.61413 768.40936,610.64458 C 741.3288,651.57961 683.15511,666.74462 639.37308,644.60268 C 611.64784,631.87 593.22984,602.13446 561.13259,598.51541 C 538.4968,591.92058 513.94828,597.69215 493.32346,607.89342 C 476.07398,618.13937 463.75902,634.79793 445.11984,643.02803 C 424.66328,655.1163 398.99732,656.23158 376.00544,653.16007 z " opacity="1" strokeWidth="3.80071187">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<stroke>
+      						<Color>
+      							<red>0.0</red>
+      							<green>0.5882352941176471</green>
+      							<blue>0.0</blue>
+      						</Color>
+      					</stroke>
+      				</SVGPath>
+      				<SVGPath id="path2378" content="M 144.95689 70.753784 A 36.870567 41.921329 0 1 1  71.215752,70.753784 A 36.870567 41.921329 0 1 1  144.95689 70.753784 z" opacity="1" strokeWidth="1.0">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<transforms>
+      						<Affine mxx="2.533807" mxy="0" myx="0" myy="2.533807" tx="266.937" ty="366.921">
+						</Affine>
+      					</transforms>
+      				</SVGPath>
+      				<SVGPath id="path3265" content="M 147.22974 71.574539 A 41.353119 41.353119 0 1 1  64.523499,71.574539 A 41.353119 41.353119 0 1 1  147.22974 71.574539 z" opacity="1" strokeWidth="1.0173503">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<stroke>
+						BLACK
+					</stroke>
+      					<transforms>
+      						<Affine mxx="2.457364" mxy="0" myx="0" myy="2.457364" tx="282.0717" ty="372.0733">
+						</Affine>
+      					</transforms>
+      				</SVGPath>
+      				<SVGPath id="path6829" content="M 372.46875,365.6875 C 368.43287,365.69402 365.16277,368.96412 365.15625,373 L 365.15625,503.375 C 365.16277,507.41088 368.43287,510.68098 372.46875,510.6875 L 473.53125,510.6875 C 477.56713,510.68098 480.83723,507.41088 480.84375,503.375 L 480.84375,373 C 480.83723,368.96412 477.56713,365.69402 473.53125,365.6875 L 372.46875,365.6875 z " opacity="1" strokeWidth="0.94117677">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<stroke>
+						BLACK
+					</stroke>
+      					<transforms>
+      						<Affine mxx="2.379572" mxy="0" myx="0" myy="2.534314" tx="-330.7504" ty="-558.5293">
+						</Affine>
+      					</transforms>
+      				</SVGPath>
+      				<SVGPath id="path6835" content="M 277.4375,431.6875 C 273.29554,431.68791 269.93791,435.04554 269.9375,439.1875 L 269.9375,500.3125 C 269.93791,504.45446 273.29554,507.81209 277.4375,507.8125 L 476.4375,507.8125 C 480.57946,507.81209 483.93709,504.45446 483.9375,500.3125 L 483.9375,439.1875 C 483.93709,435.04554 480.57946,431.68791 476.4375,431.6875 L 277.4375,431.6875 z " opacity="1" strokeWidth="1.0">
+      					<fill>
+						TRANSPARENT
+					</fill>
+      					<stroke>
+						RED
+					</stroke>
+      					<transforms>
+      						<Affine mxx="2.534104" mxy="0" myx="0" myy="2.408554" tx="-412.8156" ty="-487.2993">
+						</Affine>
+      					</transforms>
+      				</SVGPath>
+                  <Label layoutX="304.0" layoutY="537.0" text="Set A" />
+                  <Label layoutX="373.0" layoutY="500.0" text="Set B" />
+                  <Label layoutX="465.0" layoutY="415.0" text="Set D" />
+                  <Label layoutX="363.0" layoutY="431.0" text="Set C" />
+                  <Label layoutX="504.0" layoutY="381.0" text="Set E" />
+      			</children>
+      			<transforms>
+      				<Translate x="-266.937" y="-366.921">
+				</Translate>
+      			</transforms>
+      		</Group>
+      	</children>
+      </Group>
+   </children>
+</AnchorPane>
