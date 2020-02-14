@@ -1,6 +1,5 @@
 package org.example;
 
-import com.jfoenix.controls.JFXButton;
 
 import javafx.collections.FXCollections;
 import javafx.collections.ObservableList;
@@ -20,9 +19,6 @@ public class  SecondWindowController {
 	@FXML
     private AnchorPane createVenn;
 	
-	@FXML
-    private JFXButton createButton;
-
 	//Small "X" at top right that closes program
 	@FXML
     private Text close;
