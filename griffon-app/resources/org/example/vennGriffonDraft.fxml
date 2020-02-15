@@ -14,47 +14,62 @@
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="476.0" prefWidth="646.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
-   <children>
-      <BorderPane />
-      <VBox />
-      <StackPane layoutX="208.0" layoutY="160.0" prefHeight="310.0" prefWidth="438.0">
-         <children>
-            <Circle fill="#0059e375" layoutX="260.0" layoutY="182.0" radius="129.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_RIGHT" />
-            <Circle fill="#e5f72074" layoutX="376.0" layoutY="143.0" radius="127.0" stroke="BLACK" strokeType="INSIDE" StackPane.alignment="TOP_LEFT" />
-         </children>
-      </StackPane>
-      <DropdownButton layoutX="530.0" layoutY="15.0" nodeOrientation="LEFT_TO_RIGHT">
-         <items>
-            <MenuItem text="2" />
-            <MenuItem text="3" />
-            <MenuItem text="4" />
-            <MenuItem text="5" />
-            <MenuItem text="6" />
-         </items>
-      </DropdownButton>
-      <Label layoutX="426.0" layoutY="19.0" text="Number of Sets:" textFill="#575553" />
-      <TextArea layoutX="95.0" layoutY="16.0" prefHeight="162.0" prefWidth="27.0" text="A:&#10;&#10;B:&#10;&#10;C:&#10;&#10;D:">
-         <font>
-            <Font name="Comic Sans MS" size="11.0" />
-         </font>
-         <effect>
-            <Blend />
-         </effect>
-      </TextArea>
-      <TextField layoutX="134.0" layoutY="15.0" />
-      <TextField layoutX="134.0" layoutY="48.0" />
-      <TextField layoutX="134.0" layoutY="83.0" />
-      <TextField layoutX="134.0" layoutY="117.0" />
-      <SplitPane dividerPositions="0.29797979797979796" layoutY="228.0" prefHeight="249.0" prefWidth="189.0">
-         <items>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="247.0" prefWidth="72.0">
-               <children>
-                  <TextArea layoutX="-10.0" prefHeight="154.0" prefWidth="72.0" text="A U B:&#10;A U C:&#10;A U D:&#10;A n B:&#10;A n C:&#10;A n D:&#10;&#10;" />
-               </children>
-            </AnchorPane>
-            <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="247.0" prefWidth="153.0" />
-         </items>
-      </SplitPane>
-   </children>
+<AnchorPane prefHeight="476.0" prefWidth="646.0"
+	xmlns="http://javafx.com/javafx/11.0.1"
+	xmlns:fx="http://javafx.com/fxml/1">
+	<children>
+		<BorderPane />
+		<VBox />
+		<StackPane layoutX="208.0" layoutY="160.0"
+			prefHeight="310.0" prefWidth="438.0">
+			<children>
+				<Circle fill="#0059e375" layoutX="260.0" layoutY="182.0"
+					radius="129.0" stroke="BLACK" strokeType="INSIDE"
+					StackPane.alignment="TOP_RIGHT" />
+				<Circle fill="#e5f72074" layoutX="376.0" layoutY="143.0"
+					radius="127.0" stroke="BLACK" strokeType="INSIDE"
+					StackPane.alignment="TOP_LEFT" />
+			</children>
+		</StackPane>
+		<DropdownButton layoutX="530.0" layoutY="15.0"
+			nodeOrientation="LEFT_TO_RIGHT">
+			<items>
+				<MenuItem text="2" />
+				<MenuItem text="3" />
+				<MenuItem text="4" />
+				<MenuItem text="5" />
+				<MenuItem text="6" />
+			</items>
+		</DropdownButton>
+		<Label layoutX="426.0" layoutY="19.0" text="Number of Sets:"
+			textFill="#575553" />
+		<TextArea layoutX="95.0" layoutY="16.0" prefHeight="162.0"
+			prefWidth="27.0" text="A:&#10;&#10;B:&#10;&#10;C:&#10;&#10;D:">
+			<font>
+				<Font name="Comic Sans MS" size="11.0" />
+			</font>
+			<effect>
+				<Blend />
+			</effect>
+		</TextArea>
+		<TextField layoutX="134.0" layoutY="15.0" />
+		<TextField layoutX="134.0" layoutY="48.0" />
+		<TextField layoutX="134.0" layoutY="83.0" />
+		<TextField layoutX="134.0" layoutY="117.0" />
+		<SplitPane dividerPositions="0.29797979797979796"
+			layoutY="228.0" prefHeight="249.0" prefWidth="189.0">
+			<items>
+				<AnchorPane minHeight="0.0" minWidth="0.0"
+					prefHeight="247.0" prefWidth="72.0">
+					<children>
+						<TextArea layoutX="-10.0" prefHeight="154.0"
+							prefWidth="72.0"
+							text="A U B:&#10;A U C:&#10;A U D:&#10;A n B:&#10;A n C:&#10;A n D:&#10;&#10;" />
+					</children>
+				</AnchorPane>
+				<AnchorPane minHeight="0.0" minWidth="0.0"
+					prefHeight="247.0" prefWidth="153.0" />
+			</items>
+		</SplitPane>
+	</children>
 </AnchorPane>

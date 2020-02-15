@@ -9,8 +9,6 @@ import org.kordamp.jipsy.ServiceProviderFor;
 public class ApplicationModule extends AbstractModule {
     @Override
     protected void doConfigure() {
-        bind(EventHandler.class)
-            .to(ApplicationEventHandler.class)
-            .asSingleton();
+        bind(EventHandler.class).to(ApplicationEventHandler.class).asSingleton();
     }
 }

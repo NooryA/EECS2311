@@ -36,8 +36,7 @@ public class VennGriffonView extends AbstractJavaFXGriffonView {
 
     @Override
     public void initUI() {
-        Stage stage = (Stage) getApplication()
-            .createApplicationContainer(Collections.<String,Object>emptyMap());
+        Stage stage = (Stage) getApplication().createApplicationContainer(Collections.<String, Object>emptyMap());
         stage.setTitle(getApplication().getConfiguration().getAsString("application.title"));
         stage.setScene(init());
         stage.sizeToScene();
